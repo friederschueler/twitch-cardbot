@@ -1,0 +1,6 @@
+CHANNEL_NAME = 'YOUR_CHANNEL_NAME'
+CLIENT_ID = 'YOUR_CLIENT_ID'
+CLIENT_SECRET = 'YOUR_CLIENT_SECRET'
+REDIRECT_URI = 'http://localhost:8008/callback'
+SCOPES = 'chat:read chat:edit'
+OAUTH_URL = f'https://id.twitch.tv/oauth2/authorize?response_type=code&client_id={CLIENT_ID}&redirect_uri={REDIRECT_URI}&scope={SCOPES}'
